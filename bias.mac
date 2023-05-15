@@ -1,0 +1,20 @@
+/run/initialize
+
+/gps/particle geantino
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 4.75 mm
+/gps/pos/halfz 150. mm
+/gps/ang/type iso
+/gps/ene/type Mono
+/gps/energy 3. MeV
+
+
+
+
+
+/tracking/verbose 1
+
+/run/beamOn 100
+
+

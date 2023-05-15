@@ -1,0 +1,35 @@
+
+/gps/hist/point 0.5 0.1
+/gps/hist/point 1.25 0.1849
+/gps/hist/point 1.5 0.1501
+/gps/hist/point 1.75 0.1268
+/gps/hist/point 2.0 0.1046
+/gps/hist/point 2.25 0.0852
+/gps/hist/point 2.5 0.0697
+/gps/hist/point 2.75 0.0568
+/gps/hist/point 3.0 0.0472
+/gps/hist/point 3.25 0.0386
+/gps/hist/point 3.5 0.0307
+/gps/hist/point 3.75 0.0244
+/gps/hist/point 4.0 0.0191
+/gps/hist/point 4.25 0.0149
+/gps/hist/point 4.5 0.0114
+/gps/hist/point 4.75 0.0088
+/gps/hist/point 5.0 0.0069
+/gps/hist/point 5.25 0.0053
+/gps/hist/point 5.5 0.0041
+/gps/hist/point 5.75 0.0030
+/gps/hist/point 6.0 0.0023
+/gps/hist/point 6.25 0.0017
+/gps/hist/point 6.5 0.0012
+/gps/hist/point 6.75 0.0009
+/gps/hist/point 7.0 0.0006
+/gps/hist/point 7.25 0.0004
+/gps/hist/point 7.5 0.0002
+/gps/hist/point 7.75 0.0001
+/gps/hist/point 8.0 0.0000
+/gps/hist/point 8.25 0.0000
+/gps/hist/point 8.5 0.0000
+/gps/hist/point 9.0 0.0000
+
+/gps/hist/inter Lin

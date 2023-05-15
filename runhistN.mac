@@ -1,0 +1,138 @@
+/run/numberOfThreads 4
+/run/initialize
+
+/gps/particle e-
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/radius 4.75 mm
+/gps/ang/type iso
+/gps/ene/type Arb
+/gps/hist/type arb
+/control/execute espek.mac
+/gps/verbose 1
+
+
+/score/create/cylinderMesh Envelop1
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/quantity/doseDeposit DOSE
+/score/close
+
+/score/create/cylinderMesh Envelop2
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 13. 0. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop3
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 13. 13. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop4
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 26. 0. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop5
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 26. 13. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop6
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 26. 26. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop7
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 39. 0. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop8
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 39. 13. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop9
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 39. 26. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop10
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 39. 39. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop11
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 52. 0. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop12
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 52. 13. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop13
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 52. 26. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop14
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 52. 39. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/score/create/cylinderMesh Envelop15
+/score/mesh/cylinderSize 7.5 50. mm
+/score/mesh/nBin 15 100 1
+/score/mesh/translate/xyz 52. 52. 0. mm 
+/score/quantity/energyDeposit E MeV
+/score/close
+
+/run/beamOn 10000000
+
+/score/dumpAllQuantitiesToFile Envelop1 e1.cvs
+/score/dumpAllQuantitiesToFile Envelop2 e2.cvs
+/score/dumpAllQuantitiesToFile Envelop3 e3.cvs
+/score/dumpAllQuantitiesToFile Envelop4 e4.cvs
+/score/dumpAllQuantitiesToFile Envelop5 e5.cvs
+/score/dumpAllQuantitiesToFile Envelop6 e6.cvs
+/score/dumpAllQuantitiesToFile Envelop7 e7.cvs
+/score/dumpAllQuantitiesToFile Envelop8 e8.cvs
+/score/dumpAllQuantitiesToFile Envelop9 e9.cvs
+/score/dumpAllQuantitiesToFile Envelop10 e10.cvs
+/score/dumpAllQuantitiesToFile Envelop11 e11.cvs
+/score/dumpAllQuantitiesToFile Envelop12 e12.cvs
+/score/dumpAllQuantitiesToFile Envelop13 e13.cvs
+/score/dumpAllQuantitiesToFile Envelop14 e14.cvs
+/score/dumpAllQuantitiesToFile Envelop15 e15.cvs
+
+
+
